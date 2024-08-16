@@ -8,6 +8,7 @@ import {
   Image,
 } from "react-native";
 import OtpBox from "../components/OtpBox";
+import PhoneInput from "react-native-phone-number-input";
 
 const Login = () => {
   return (
@@ -28,7 +29,7 @@ const Login = () => {
         >
           {" "}
         </TextInput> */}
-        
+        <PhoneInput/>
         <OtpBox />
         <View style={styles.button}>
           <Button title="Continue" color="#AB1D79" />
